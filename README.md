@@ -1,9 +1,11 @@
 # HughesyHugh.github.io
 
-This GitHub Pages site will be my personal site and experimental project portfolio homepage
+This GitHub Pages site will be my personal site and a directory of my projects. Until I develop more blog/article-style functionality on the site, this readme will serve the purpose of outlining my development progress.
 
-Short term aims:
+Aims:
+1. Solidify my understanding of HTML and CSS. 
+2. Develop additional familiarity with organising the project files to a more professional standard.
 
-Develop better understanding of HTML, CSS, and JavaScript. 
+3. Further my knowledge of JavaScript by building web apps, hosting them online and linking to them from this website. 
 
-Incrementally improve the project site with additional functionality / 
+4. As I undertake courses of varied technologies I'll will upload course projects also.
