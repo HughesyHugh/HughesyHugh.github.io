@@ -8,4 +8,4 @@ Aims:
 
 3. Further my knowledge of JavaScript by building web apps, hosting them online and linking to them from this website. 
 
-4. As I undertake courses of varied technologies I'll will upload course projects also.
+4. As I undertake courses of varied technologies I'll upload course projects also.
