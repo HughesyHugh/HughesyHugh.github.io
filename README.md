@@ -1,6 +1,6 @@
 # HughesyHugh.github.io
 
-This GitHub Pages site will be my personal site and a directory of my projects. Until I develop more blog/article-style functionality on the site, this readme will serve the purpose of outlining my development progress.
+This GitHub Pages site will be my personal site and a directory of my projects. Until I develop more blog/article-style functionality on the site, this readme will serve the purpose of outlining my key goals progress.
 
 Aims:
 1. Solidify my understanding of HTML and CSS. 
