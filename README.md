@@ -6,6 +6,4 @@ Aims:
 1. Solidify my understanding of HTML and CSS. 
 2. Develop additional familiarity with organising the project files to a more professional standard.
 
-3. Further my knowledge of JavaScript by building web apps, hosting them online and linking to them from this website. 
-
-4. As I undertake courses of varied technologies I'll upload course projects also.
+3. Further my knowledge of JavaScript by building web apps, hosting them online and linking to them from this site. 
