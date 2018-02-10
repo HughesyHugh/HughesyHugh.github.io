@@ -1,17 +1,7 @@
-$exampleVar: rgb(120,120,120);
+@import "base/_css-variables.css";
+@import "base/_global.css";
+@import "css_modules/_header.css";
 
 
-.header {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: green;
-	top: 0;
-	left: 0;
-}
 
-.logo {
-	font-family: 'Special Elite', cursive;
-	font-size: 1.8rem;
-	color: $exampleVar;
-}
+

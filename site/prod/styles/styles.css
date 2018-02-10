@@ -2,18 +2,14 @@ body {
 	background-color: grey;
 }
 .header {
-	width: 100%;
-	margin: 0;
-	padding: 0;
 	background-color: green;
-	top: 0;
-	left: 0;
+
+	
 }
-.header .logo {
+.logo {
 	font-family: 'Special Elite', cursive;
 	font-size: 1.8rem;
-	color: rgb(120,120,120);
-	}
+}
 
 
 
