@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
 .header {
-	background-color: white;
+	background-color: black;
 	border: 0;
 }
 
 .logo {
-	font-family: 'Titillium Web', cursive;
+	font-family: 'Special Elite', cursive;
 	font-size: 2rem;
-	letter-spacing: 0.15rem;
-
 }
 
 .menu {
@@ -15,12 +16,10 @@
 }
 
 a {
-	color: black;
+	color: grey;
 	text-decoration: none;
 }
 
 a:hover {
 	color: black;
-	background-color: grey;
-	text-decoration: underline;
 }
