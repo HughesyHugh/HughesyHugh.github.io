@@ -1,26 +1,35 @@
 .header {
-	background-color: white;
-	border: 0;
+	background-repeat: no-repeat;
+	background: linear-gradient(#141E30,#004e92);
+	border-bottom: 0.3125rem solid #000000;
 }
 
 .logo {
-	font-family: 'Titillium Web', cursive;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 0.15rem;
-
+	float: left;
+	width: 50%;
 }
 
 .menu {
 	display: inline;
+	position: relative;
+	text-align: right;
+	width: 50%;
+}
+	
+
+.header {
+	* {
+		color: white;
+		font-family: 'Titillium Web', sans-serif;
+	}	
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 
 a:hover {
-	color: black;
-	background-color: grey;
 	text-decoration: underline;
 }
