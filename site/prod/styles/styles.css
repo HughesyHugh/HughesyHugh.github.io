@@ -1,24 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');html {
-	height: 200%;
-}body {
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+html {
+	height: 100%;
+}
+body {
 	margin: 0;
 	background-repeat: no-repeat;
-	background: -webkit-gradient(linear,left top, left bottom,from(#67B26F),to(#4ca2cd));
-	background: linear-gradient(#67B26F,#4ca2cd);
-}.header {
-	background-color: black;
+	background: -webkit-gradient(linear,left top, left bottom,from(#000428),to(#004e92));
+	background: linear-gradient(#000428,#004e92);
+}
+.header {
+	background-color: white;
 	border: 0;
-}.logo {
-	font-family: 'Special Elite', cursive;
+}
+.logo {
+	font-family: 'Titillium Web', cursive;
 	font-size: 2rem;
-}.menu {
+	letter-spacing: 0.15rem;
+
+}
+.menu {
 	display: inline;
-}a {
-	color: grey;
-	text-decoration: none;
-}a:hover {
+}
+a {
 	color: black;
-}.wrapper {
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	background-color: grey;
+	text-decoration: underline;
+}
+.wrapper {
 }
 
 
