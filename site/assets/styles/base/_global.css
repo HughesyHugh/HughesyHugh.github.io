@@ -1,9 +1,9 @@
 html {
-	height: 100%;
+	height: 200%;
 }
 
 body {
 	margin: 0;
 	background-repeat: no-repeat;
-	background: linear-gradient(#000428,#004e92);
+	background: linear-gradient(#67B26F,#4ca2cd);
 }
