@@ -6,19 +6,23 @@
 	border: 0;
 }
 
+
 .logo {
 	font-family: 'Special Elite', cursive;
 	font-size: 2rem;
 }
 
+
 .menu {
 	display: inline;
 }
+
 
 a {
 	color: grey;
 	text-decoration: none;
 }
+
 
 a:hover {
 	color: black;

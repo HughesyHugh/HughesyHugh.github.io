@@ -1,9 +1,10 @@
 html {
-	height: 200%;
+	height: 150%;
 }
 
 body {
 	margin: 0;
 	background-repeat: no-repeat;
+	background: -webkit-gradient(linear,left top, left bottom,from(#67B26F),to(#4ca2cd));
 	background: linear-gradient(#67B26F,#4ca2cd);
 }
