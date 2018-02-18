@@ -2,17 +2,37 @@
 
 
 .header {
-	background-color: black;
 	border: 0;
 }
 
 .logo {
 	font-family: 'Special Elite', cursive;
 	font-size: 2rem;
+	background-repeat: no-repeat;
+	background: linear-gradient(#141E30,#004e92);
+	border-bottom: 0.3125rem solid #000000;
+}
+
+.logo {
+	font-size: 1.5rem;
+	letter-spacing: 0.15rem;
+	float: left;
+	width: 50%;
 }
 
 .menu {
 	display: inline;
+	position: relative;
+	text-align: right;
+	width: 50%;
+}
+	
+
+.header {
+	* {
+		color: white;
+		font-family: 'Titillium Web', sans-serif;
+	}	
 }
 
 a {
@@ -22,4 +42,5 @@ a {
 
 a:hover {
 	color: black;
+	text-decoration: underline;
 }

@@ -1,25 +1,48 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');html {
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+html {
 	height: 200%;
-}body {
-	margin: 0;
-	background-repeat: no-repeat;
-	background: -webkit-gradient(linear,left top, left bottom,from(#67B26F),to(#4ca2cd));
-	background: linear-gradient(#67B26F,#4ca2cd);
-}.header {
-	background-color: black;
-	border: 0;
-}.logo {
-	font-family: 'Special Elite', cursive;
-	font-size: 2rem;
-}.menu {
-	display: inline;
-}a {
-	color: grey;
-	text-decoration: none;
-}a:hover {
-	color: black;
-}.wrapper {
 }
+body {
+	margin: 0;
+}
+.header {
+	background-repeat: no-repeat;
+	background: -webkit-gradient(linear,left top, left bottom,from(#141E30),to(#004e92));
+	background: linear-gradient(#141E30,#004e92);
+	border-bottom: 0.3125rem solid #000000;
+}
+.logo {
+	font-size: 1.5rem;
+	letter-spacing: 0.15rem;
+	float: left;
+	width: 50%;
+}
+.menu {
+	display: inline;
+	position: relative;
+	text-align: right;
+	width: 50%;
+}
+.header * {
+		color: white;
+		font-family: 'Titillium Web', sans-serif;
+	}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.wrapper {
+	padding-left: 25px;
+	padding-right: 25px;
+>>>>>>> favicon
+}
+.wrapper--header {
+		padding: 0.5rem;
+	}
 
 
 
