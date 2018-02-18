@@ -1,27 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
-
-
-.header {
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');html {
+	height: 200%;
+}.header {
 	background-repeat: no-repeat;
+	background: -webkit-gradient(linear,left top, left bottom,from(#141E30),to(#004e92));
 	background: linear-gradient(#141E30,#004e92);
 	border-bottom: 0.3125rem solid #000000;
-
-	* {
+}.header * {
 		color: white;
-	}
-}
-
-.logo {
+	}.logo {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.5rem;
 	letter-spacing: 0.15rem;
 	float: left;
 	width: 100%;
-}
-
-.menu {
+}.menu {
 	display: inline;
 	position: relative;
 	text-align: right;
 	width: 50%;
-}
+}.wrapper {
+	padding-left: 25px;
+	padding-right: 25px;
+}.wrapper--header {
+		padding: 0.5rem;
+	}
+
+
+
