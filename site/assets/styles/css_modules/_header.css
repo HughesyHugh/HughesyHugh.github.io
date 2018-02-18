@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
-
-
 .header {
 	background-repeat: no-repeat;
-	background: linear-gradient(#141E30,#004e92);
+	background: linear-gradient(#de6161,#004e92);
 	border-bottom: 0.3125rem solid #000000;
+	min-height: 2rem;
 
 	* {
 		color: white;
+		font-family: sans-serif;
 	}
 }
 
 .logo {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.5rem;
-	letter-spacing: 0.15rem;
+	display: inline;
 	float: left;
 	width: 100%;
+	line-height: 2rem;
 }
 
-.menu {
+.menu li {
 	display: inline;
 	position: relative;
 	text-align: right;
 	width: 50%;
+	line-height: 2rem;
 }

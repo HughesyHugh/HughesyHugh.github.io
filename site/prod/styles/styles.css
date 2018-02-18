@@ -1,29 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');html {
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html {
 	height: 200%;
-}.header {
+}
+.header {
 	background-repeat: no-repeat;
-	background: -webkit-gradient(linear,left top, left bottom,from(#141E30),to(#004e92));
-	background: linear-gradient(#141E30,#004e92);
+	background: -webkit-gradient(linear,left top, left bottom,from(#de6161),to(#004e92));
+	background: linear-gradient(#de6161,#004e92);
 	border-bottom: 0.3125rem solid #000000;
-}.header * {
+	min-height: 2rem;
+}
+.header * {
 		color: white;
-	}.logo {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.5rem;
-	letter-spacing: 0.15rem;
+		font-family: sans-serif;
+	}
+.logo {
+	display: inline;
 	float: left;
 	width: 100%;
-}.menu {
+	line-height: 2rem;
+}
+.menu li {
 	display: inline;
 	position: relative;
 	text-align: right;
 	width: 50%;
-}.wrapper {
+	line-height: 2rem;
+}
+.wrapper {
 	padding-left: 25px;
 	padding-right: 25px;
-}.wrapper--header {
+}
+.wrapper--header {
 		padding: 0.5rem;
 	}
-
 
 
