@@ -1,38 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 html {
-	height: 200%;
 }
 .header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	background-repeat: no-repeat;
-	background: -webkit-gradient(linear,left top, left bottom,from(#de6161),to(#004e92));
-	background: linear-gradient(#de6161,#004e92);
-	border-bottom: 0.3125rem solid #000000;
 	min-height: 2rem;
+	border-bottom: 0.15rem solid #212121;
+	text-align: center;
 }
-.header * {
-		color: white;
-		font-family: sans-serif;
-	}
-.logo {
-	display: inline;
-	float: left;
+a {
+	font-size: 1.4rem;
+}
+.menu {
 	width: 100%;
 	line-height: 2rem;
+	font-weight: 00;
 }
 .menu li {
+	font-family: "Special Elite", sans-serif;
 	display: inline;
 	position: relative;
-	text-align: right;
-	width: 50%;
-	line-height: 2rem;
+	padding-left: 1rem;
 }
-.wrapper {
-	padding-left: 25px;
-	padding-right: 25px;
+a {
+	text-decoration: none;
+	color: Black;
 }
-.wrapper--header {
-		padding: 0.5rem;
-	}
+a:hover {
+	border-bottom: 0.1rem solid #212121;
+}
+/*   */
+.main {
+	position: relative;
+	width: 100%;
+	top: 5rem;
+	text-align: center;
+}
+.intro {
+	font-family: monospace;
+	font-size: 1.2rem;
+}
 
 

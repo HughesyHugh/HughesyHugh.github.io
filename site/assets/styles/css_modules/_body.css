@@ -1,0 +1,11 @@
+.main {
+	position: relative;
+	width: 100%;
+	top: 5rem;
+	text-align: center;
+}
+
+.intro {
+	font-family: monospace;
+	font-size: 1.2rem;
+}

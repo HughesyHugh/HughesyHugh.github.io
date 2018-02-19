@@ -1,26 +1,35 @@
 .header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
 	background-repeat: no-repeat;
-	background: linear-gradient(#de6161,#004e92);
-	border-bottom: 0.3125rem solid #000000;
 	min-height: 2rem;
-
-	* {
-		color: white;
-		font-family: sans-serif;
-	}
+	border-bottom: 0.15rem solid #212121;
+	text-align: center;
 }
 
-.logo {
-	display: inline;
-	float: left;
+a {
+	font-size: 1.4rem;
+}
+.menu {
 	width: 100%;
 	line-height: 2rem;
+	font-weight: 00;
 }
 
 .menu li {
+	font-family: "Special Elite", sans-serif;
 	display: inline;
 	position: relative;
-	text-align: right;
-	width: 50%;
-	line-height: 2rem;
+	padding-left: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: Black;
+}
+a:hover {
+	border-bottom: 0.1rem solid #212121;
 }
