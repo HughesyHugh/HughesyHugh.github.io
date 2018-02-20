@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html {
 }
 .header {
@@ -9,31 +10,34 @@ html {
 	right: 0;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	background-repeat: no-repeat;
-	min-height: 2rem;
-	border-bottom: 0.15rem solid #212121;
+	min-height: 1.2rem;
+	border-bottom: 0.05rem solid #212121;
 	text-align: center;
 }
 a {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 .menu {
 	width: 100%;
-	line-height: 2rem;
-	font-weight: 00;
+	line-height: 1.2rem;
+	font-weight: 500;
 }
 .menu li {
-	font-family: "Special Elite", sans-serif;
+	font-family: "Lato", sans-serif;
 	display: inline;
 	position: relative;
-	padding-left: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	}
+#say_hello {
+	font-size: 1rem;
 }
 a {
 	text-decoration: none;
 	color: Black;
 }
 a:hover {
-	border-bottom: 0.1rem solid #212121;
+	border-bottom: 0.08rem solid #212121;
 }
 /*   */
 .main {
@@ -43,8 +47,8 @@ a:hover {
 	text-align: center;
 }
 .intro {
-	font-family: monospace;
-	font-size: 1.2rem;
+	font-family: "lato";
+	font-size: 1rem;
 }
 
 
