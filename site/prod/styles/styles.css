@@ -1,54 +1,109 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-html {
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 .header {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	min-height: 1.2rem;
-	border-bottom: 0.05rem solid #212121;
 	text-align: center;
-}
-a {
-	font-size: 1.2rem;
+	/*background-color: rgb(18,42,56);*/
 }
 .menu {
 	width: 100%;
-	line-height: 1.2rem;
+	line-height: 100%;
 	font-weight: 500;
 }
 .menu li {
-	font-family: "Lato", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	display: inline;
 	position: relative;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: 100%;
 	}
-#say_hello {
-	font-size: 1rem;
-}
-a {
+.link-default {
 	text-decoration: none;
-	color: Black;
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 200;
+	padding-bottom: 1rem;
 }
-a:hover {
-	border-bottom: 0.08rem solid #212121;
+#link-bio {
+	font-weight: 600;
+	border-bottom: 2px solid black;
 }
-/*   */
-.main {
+#link-projects {
+	font-weight: 600;
+	border-bottom: 2px solid black;
+}
+.main-home {
 	position: relative;
 	width: 100%;
 	top: 5rem;
+	padding-right: 200px; 
+	padding-left: 200px;
+	}
+.main-projects {
+	position: relative;
+	width: 90%;
+	top: 5rem;
 	text-align: center;
+	margin: 0 auto;
+	}
+.text {
+		font-family: "lato";
+		line-height: 1.8rem;
+		font-size: 1rem;
 }
-.intro {
-	font-family: "lato";
-	font-size: 1rem;
+.text-heavy {
+			font-weight: 600;
+		}
+.text-tighter {
+			line-height: 0rem;
+		}
+.text-lighter {
+			font-weight: 400;
+			font-size: 0.9rem;
+		}
+.secondary-link {
+	text-decoration: none;
+	font-weight: 600;
 }
+.contact-list-li {
+	text-decoration: none;
+	list-style: none;
+	font-family: serif;
+	display: inline;
+	position: relative;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: 100%;
+	}
+.projects-block {
+	height: 200px;
+	background-color: #DAD6D5;
+	display: inline;
+	float: left;
+	width: 30%;
+	min-width: 200px;
+	left: 10rem;
+}
+.projects-block-gutter {
+		margin-left: 8px;
+		margin-right: 8px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+.projects-block-overlay {
+		position: relative;
+		top: 100px;
+		width: 50%;
+		height: 50%;
+	}
 
 
